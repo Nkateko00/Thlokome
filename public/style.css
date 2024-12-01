@@ -55,7 +55,10 @@ section{
     align-items: center;
     z-index: 100;
 }
-
+.header p{
+    color: var(--button-color);
+    size: 10em;
+}
 span{
     color: var(--main-color);
 }
@@ -121,10 +124,18 @@ span{
 
 .heading{
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.6rem;
     margin-bottom: 4rem;
+    display: grid;
+    margin-top: 4rem;
 }
 
+.heading a{
+    color: var(--text-color);
+}
+i{
+    font-size: 2.6rem;
+}
 .logo{
     font-size: 2.5rem;
     color: var(--bg-color);
@@ -204,6 +215,12 @@ span{
     .footer{
         padding: 2rem 3%;
 
+    }
+
+}
+@media (max-width :991px){
+    .heading{
+        font-size: 2.6rem
     }
 
 }
