@@ -183,13 +183,17 @@ span{
     font-size: 1.6rem;
     margin-top: 4rem;
     margin-left: 1rem;
-  
+    display: flex;
+    align-items: center;
 }
-
+.address i{
+    margin-right: 0.5rem;
+}
 .heading a,
 .address a{
     color: var(--text-color);
 }
+
 
 i{
     font-size: 2.6rem;
